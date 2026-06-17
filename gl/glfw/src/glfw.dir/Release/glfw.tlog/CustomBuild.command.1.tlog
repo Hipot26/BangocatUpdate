@@ -1,0 +1,10 @@
+^C:\USERS\HIPOT\VIDEOS\TRABAJO\BONGO CAT\BONGOBS-CAT-PLUGIN\THIRDPARTY\GLFW\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Hipot/Videos/Trabajo/bongo cat/Bongobs-Cat-Plugin" "-BC:/Users/Hipot/Videos/Trabajo/bongo cat/Bongobs-Cat-Plugin/build" --check-stamp-file "C:/Users/Hipot/Videos/Trabajo/bongo cat/Bongobs-Cat-Plugin/gl/glfw/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

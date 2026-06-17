@@ -1,0 +1,57 @@
+{
+  "_info": "face/config.json — lógica de animación estilo Veadotube",
+
+  "enabled": true,
+  "idleState": "idle",
+  "autoBlink": true,
+  "blinkIntervalMin": 2.0,
+  "blinkIntervalMax": 5.0,
+
+  "states": [
+    {
+      "_nota": "Idle: ojos abiertos boca cerrada. Base cuando no habla.",
+      "name": "idle",
+      "loop": true,
+      "frameDuration": 99.0,
+      "frames": ["0.png"]
+    },
+    {
+      "_nota": "Parpadeo sin hablar: 0→3→0 (ojos abiertos→cerrados→abiertos, boca siempre cerrada). Play-once → vuelve a idle.",
+      "name": "blink",
+      "loop": false,
+      "frameDuration": 0.06,
+      "frames": [
+        "0.png",
+        "3.png",
+        "3.png",
+        "0.png"
+      ]
+    },
+    {
+      "_nota": "Talk: boca abierta, parpadeo incluido. Alterna 1↔2 (boca abierta ojos abiertos / boca abierta ojos cerrados).",
+      "name": "talk",
+      "loop": true,
+      "frameDuration": 0.12,
+      "frames": [
+        "1.png",
+        "1.png",
+        "1.png",
+        "1.png",
+        "2.png",
+        "1.png"
+      ]
+    },
+    {
+      "_nota": "Parpadeo mientras habla: 1→2→1. Play-once → vuelve a talk.",
+      "name": "blink_talk",
+      "loop": false,
+      "frameDuration": 0.06,
+      "frames": [
+        "1.png",
+        "2.png",
+        "2.png",
+        "1.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "_zOrder_valores": {
+    "back":       "Detrás del gato (entre fondo y gato) — bufandas, alas, colas",
+    "front":      "Encima del gato, debajo de las manos — gorros, pelucas, gafas",
+    "over_hands": "Encima de todo — ítems sostenidos, efectos de partículas"
+  },
+
+  "_hotkey_nota": "Mismos nombres que KeyUse en el modo. La misma tecla hace toggle ON/OFF.",
+  "_duration_nota": "Segundos activo. 0 = permanente hasta otro toggle o canal.",
+  "_channelPoints_nota": "Puntos de canal para activar desde chat. 0 = solo hotkey.",
+
+  "skins": [
+    {
+      "id":            "poke",
+      "image":         "poke/gorraPoke.png",
+      "hotkey":        "f5",
+      "zOrder":        "front",
+      "duration":      0,
+      "channelPoints": 0
+    }
+  ]
+}

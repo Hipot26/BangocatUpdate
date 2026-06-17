@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Hipot\Videos\Trabajo\bongo cat\Bongobs-Cat-Plugin\thirdParty\glew\src\visualinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Hipot\Videos\Trabajo\bongo cat\Bongobs-Cat-Plugin\thirdParty\glew\build\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Hipot\Videos\Trabajo\bongo cat\Bongobs-Cat-Plugin\thirdParty\glew\build\visualinfo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{87A879E7-9CEC-3B5F-8D45-A1931401B4A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
